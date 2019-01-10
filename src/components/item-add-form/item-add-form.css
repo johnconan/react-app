@@ -1,0 +1,21 @@
+.item-add-form {
+    margin-top: 10px;
+    display: flex;
+}
+.btn-primary {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #567ca4;
+}
+
+.item-add-form input {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

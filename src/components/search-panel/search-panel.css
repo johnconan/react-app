@@ -3,6 +3,6 @@
     flex-grow: 1;
     margin-right: 3px;
     outline: none;
-    border-radius: 10px;
-    border: 2px solid steelblue;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
