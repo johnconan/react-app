@@ -16,7 +16,6 @@ render () {
             label={item.label}
             important={item.important}
             done={item.done}
-            dates={item.dates}
             onDeleted={ () => onDeleted(item.id) }
             onToggleImportant={ () => onToggleImportant(item.id) }
             onToggleDone={ () => onToggleDone(item.id) }

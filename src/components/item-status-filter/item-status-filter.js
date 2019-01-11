@@ -7,12 +7,12 @@ class ItemStatusFilter extends Component {
         {name: 'all', label: 'all'},
         {name: 'active', label: 'active'},
         {name: 'done', label: 'done'}
-     ]
+    ]
 
     render () {
         const { filter, onFilterChange } = this.props;
 
-        const buttons = this.buttons.map(({name, label})=> {
+        const buttons = this.buttons.map(({name, label}) => {
             const isActive = filter === name;
             const cls = isActive ? 'btn-info' : 'btn-outline-secondary';
 
